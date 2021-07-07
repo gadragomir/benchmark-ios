@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Buttons">
-  <grid id="27dc6" binding="panelTitle" layout-manager="GridLayoutManager" row-count="2" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+  <grid id="27dc6" binding="mainPanel" layout-manager="GridLayoutManager" row-count="3" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
     <margin top="0" left="0" bottom="0" right="0"/>
     <constraints>
       <xy x="20" y="20" width="500" height="400"/>
@@ -8,25 +8,87 @@
     <properties/>
     <border type="none"/>
     <children>
-      <vspacer id="4d30f">
+      <component id="fc6e4" class="javax.swing.JButton" binding="gibButton">
         <constraints>
-          <grid row="0" column="1" row-span="2" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
-        </constraints>
-      </vspacer>
-      <component id="1cd3f" class="javax.swing.JButton" binding="button1" default-binding="true">
-        <constraints>
-          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <grid row="2" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
-          <text value="Button"/>
+          <horizontalAlignment value="0"/>
+          <text value="GiB &gt; MB"/>
         </properties>
       </component>
-      <component id="2cbdf" class="javax.swing.JButton" binding="button2" default-binding="true">
+      <component id="b12a7" class="javax.swing.JButton" binding="mibButton">
         <constraints>
-          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <grid row="1" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
-          <text value="Button"/>
+          <text value="MiB &gt; MB"/>
+        </properties>
+      </component>
+      <component id="6136d" class="javax.swing.JComboBox" binding="comboBox1" default-binding="true">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+          <model>
+            <item value="Select a device"/>
+            <item value="iPhone 5"/>
+            <item value="iPhone 5c"/>
+            <item value="iPhone 5s"/>
+            <item value="iPhone 6"/>
+            <item value="iPhone 6 Plus"/>
+            <item value="iPhone 6s"/>
+            <item value="iPhone 6s Plus"/>
+            <item value="iPhone 7"/>
+            <item value="iPhone 7 Plus"/>
+            <item value="iPhone 8"/>
+            <item value="iPhone 8 Plus"/>
+            <item value="iPhone X"/>
+            <item value="iPhone XR"/>
+            <item value="iPhone XS"/>
+            <item value="iPhone XS Max"/>
+            <item value="iPhone 11"/>
+            <item value="iPhone 11 Pro"/>
+            <item value="iPhone 11 Pro Max"/>
+            <item value="iPhone 12 mini"/>
+            <item value="iPhone 12"/>
+            <item value="iPhone 12 Pro"/>
+            <item value="iPhone 12 Pro Max"/>
+          </model>
+        </properties>
+      </component>
+      <component id="ffd1f" class="javax.swing.JComboBox" binding="comboBox2" default-binding="true">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <model>
+            <item value="Select a device"/>
+            <item value="iPad 4"/>
+            <item value="iPad Mini"/>
+            <item value="iPad Mini 2"/>
+            <item value="iPad Mini 3"/>
+            <item value="iPad Mini 4"/>
+            <item value="iPad Mini 5"/>
+            <item value="iPad Air"/>
+            <item value="iPad Air 2"/>
+            <item value="iPad Air 3"/>
+            <item value="iPad Air 4"/>
+            <item value="iPad 9.7 (2016)"/>
+            <item value="iPad 9.7 (2017)"/>
+            <item value="iPad 9.7 (2018)"/>
+            <item value="iPad Pro 9.7 (2016)"/>
+            <item value="iPad Pro 10.5 (2017)"/>
+            <item value="iPad Pro 12.9 (2015)"/>
+            <item value="iPad Pro 12.9 (2017)"/>
+            <item value="iPad Pro 2018 (11 inch)"/>
+            <item value="iPad Pro 2018 (12.9 inch)"/>
+            <item value="iPad 2019 (10.2 inch)"/>
+            <item value="iPad 2020 (10.2 inch)"/>
+            <item value="iPad Pro 2020 (11 inch)"/>
+            <item value="iPad Pro 2020 (12.9 inch)"/>
+          </model>
         </properties>
       </component>
     </children>
