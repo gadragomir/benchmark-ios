@@ -1,2 +1,2 @@
 # Benchmark-iOS
-Metric convertor for Benchmarking on iOS
+Metric convertor for Performance Testing on mobile iDevices
